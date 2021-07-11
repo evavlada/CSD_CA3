@@ -1,7 +1,5 @@
 import java.util.LinkedList;
 
-
-
 public class NotificationsObserver implements Observer {
     private LinkedList<Observer> observers = new LinkedList<Observer>();
     private String name;
@@ -13,8 +11,6 @@ public class NotificationsObserver implements Observer {
         this.name=name;
 
     }
-
-
 
     // The update method updates the corresponding observers about the triggered event
     @Override
