@@ -2,8 +2,8 @@ import requests
 import json
 
 api_url = 'https://trello.com/evavlada/boards'
-api_key = '9c07cef3fc153f37c1e281d12ece7483'
-api_token = '266692dfcb931bb63b76905ecf9b9381fc0be8f81133e92066392edfb60bde18'
+api_key = ''
+api_token = ''
 
 def get_user_id():
     url = "https://api.trello.com/1/actions/{id}"
